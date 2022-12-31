@@ -272,7 +272,22 @@ msgid ""
 "information\n"
 msgstr ""
 
-#: as.c:348
+#: as.c:338
+#, c-format
+msgid "  --gcodeview             generate CodeView debugging information\n"
+msgstr ""
+
+#: as.c:341
+#, c-format
+msgid "  --hash-size=<N>         ignored\n"
+msgstr ""
+
+#: as.c:343
+#, c-format
+msgid "  --help                  show all assembler options\n"
+msgstr ""
+
+#: as.c:345
 #, c-format
 msgid "  --gcodeview             generate CodeView debugging information\n"
 msgstr ""
@@ -366,16 +381,21 @@ msgstr ""
 
 #: as.c:382
 #, c-format
-msgid ""
-"  --statistics            print various measured statistics from execution\n"
+msgid "  --reduce-memory-overheads ignored\n"
 msgstr ""
 
 #: as.c:384
 #, c-format
-msgid "  --strip-local-absolute  strip local absolute symbols\n"
+msgid ""
+"  --statistics            print various measured statistics from execution\n"
 msgstr ""
 
 #: as.c:386
+#, c-format
+msgid "  --strip-local-absolute  strip local absolute symbols\n"
+msgstr ""
+
+#: as.c:376
 #, c-format
 msgid ""
 "  --traditional-format    Use same format as native assembler when possible\n"
@@ -13140,7 +13160,7 @@ msgstr ""
 msgid "number (0x%<PRIx64>) larger than 32 bits"
 msgstr ""
 
-#: config/tc-mips.c:9527
+#: config/tc-mips.c:9525
 msgid "number larger than 64 bits"
 msgstr ""
 
@@ -14996,11 +15016,11 @@ msgid "Addend to unresolved symbol is not on word boundary."
 msgstr ""
 
 #. Should never here.
-#: config/tc-nds32.c:7617
+#: config/tc-nds32.c:7615
 msgid "Used FPU instructions requires enabling FPU extension"
 msgstr ""
 
-#: config/tc-nds32.c:7813
+#: config/tc-nds32.c:7811
 #, c-format
 msgid "Internal error: Unknown fixup type %d (`%s')"
 msgstr ""
@@ -23229,11 +23249,11 @@ msgstr ""
 msgid "can't extend frag"
 msgstr ""
 
-#: write.c:1627
+#: write.c:1614
 msgid "unimplemented .nops directive"
 msgstr ""
 
-#: write.c:1661
+#: write.c:1648
 #, c-format
 msgid "can't write %ld byte to section %s of %s: '%s'"
 msgid_plural "can't write %ld bytes to section %s of %s: '%s'"

@@ -1147,7 +1147,7 @@ msgstr ""
 msgid "%pB: unexpected type (%#x) section `%s' in group [%u]"
 msgstr ""
 
-#: elf.c:740
+#: elf.c:741
 #, c-format
 msgid "%pB: sh_link [%d] in section `%pA' is incorrect"
 msgstr ""
@@ -1949,36 +1949,36 @@ msgstr ""
 msgid "unknown error"
 msgstr ""
 
-#: elf32-arm.c:13913
+#: elf32-arm.c:13916
 #, c-format
 msgid ""
 "warning: not setting interworking flag of %pB since it has already been "
 "specified as non-interworking"
 msgstr ""
 
-#: elf32-arm.c:13917
+#: elf32-arm.c:13920
 #, c-format
 msgid "warning: clearing the interworking flag of %pB due to outside request"
 msgstr ""
 
-#: elf32-arm.c:13962
+#: elf32-arm.c:13965
 #, c-format
 msgid ""
 "warning: clearing the interworking flag of %pB because non-interworking code "
 "in %pB has been linked with it"
 msgstr ""
 
-#: elf32-arm.c:14049
+#: elf32-arm.c:14052
 #, c-format
 msgid "%pB: unknown mandatory EABI object attribute %d"
 msgstr ""
 
-#: elf32-arm.c:14057
+#: elf32-arm.c:14060
 #, c-format
 msgid "warning: %pB: unknown EABI object attribute %d"
 msgstr ""
 
-#: elf32-arm.c:14392
+#: elf32-arm.c:14395
 #, c-format
 msgid "error: %pB: unknown CPU architecture"
 msgstr ""
@@ -1988,13 +1988,13 @@ msgstr ""
 msgid "error: conflicting CPU architectures %s vs %s in %pB"
 msgstr ""
 
-#: elf32-arm.c:14527
+#: elf32-arm.c:14530
 #, c-format
 msgid ""
 "Error: %pB has both the current and legacy Tag_MPextension_use attributes"
 msgstr ""
 
-#: elf32-arm.c:14564
+#: elf32-arm.c:14567
 #, c-format
 msgid "error: %pB uses VFP register arguments, %pB does not"
 msgstr ""
@@ -6816,7 +6816,7 @@ msgstr ""
 msgid "%pB: symbol indicates overlay (not supported)"
 msgstr ""
 
-#: pef.c:530
+#: pef.c:531
 #, c-format
 msgid "bfd_pef_scan: unknown architecture 0x%lx"
 msgstr ""
@@ -6941,51 +6941,51 @@ msgid ""
 "plugin framework: out of file descriptors. Try using fewer objects/archives\n"
 msgstr ""
 
-#: ppcboot.c:392
+#: ppcboot.c:393
 #, c-format
 msgid ""
 "\n"
 "ppcboot header:\n"
 msgstr ""
 
-#: ppcboot.c:393
+#: ppcboot.c:394
 #, c-format
 msgid "Entry offset        = 0x%.8lx (%ld)\n"
 msgstr ""
 
-#: ppcboot.c:395
+#: ppcboot.c:396
 #, c-format
 msgid "Length              = 0x%.8lx (%ld)\n"
 msgstr ""
 
-#: ppcboot.c:399
+#: ppcboot.c:400
 #, c-format
 msgid "Flag field          = 0x%.2x\n"
 msgstr ""
 
-#: ppcboot.c:405
+#: ppcboot.c:406
 #, c-format
 msgid "Partition name      = \"%s\"\n"
 msgstr ""
 
-#: ppcboot.c:425
+#: ppcboot.c:426
 #, c-format
 msgid ""
 "\n"
 "Partition[%d] start  = { 0x%.2x, 0x%.2x, 0x%.2x, 0x%.2x }\n"
 msgstr ""
 
-#: ppcboot.c:432
+#: ppcboot.c:433
 #, c-format
 msgid "Partition[%d] end    = { 0x%.2x, 0x%.2x, 0x%.2x, 0x%.2x }\n"
 msgstr ""
 
-#: ppcboot.c:439
+#: ppcboot.c:440
 #, c-format
 msgid "Partition[%d] sector = 0x%.8lx (%ld)\n"
 msgstr ""
 
-#: ppcboot.c:443
+#: ppcboot.c:444
 #, c-format
 msgid "Partition[%d] length = 0x%.8lx (%ld)\n"
 msgstr ""
@@ -8230,7 +8230,7 @@ msgstr ""
 msgid "typed pointer\n"
 msgstr ""
 
-#: vms-alpha.c:7431
+#: vms-alpha.c:7568
 #, c-format
 msgid "pointer\n"
 msgstr ""
@@ -8275,7 +8275,7 @@ msgstr ""
 msgid "cannot read DST symbol\n"
 msgstr ""
 
-#: vms-alpha.c:7575
+#: vms-alpha.c:7712
 #, c-format
 msgid "standard data: %s\n"
 msgstr ""
@@ -8290,7 +8290,7 @@ msgstr ""
 msgid "modbeg\n"
 msgstr ""
 
-#: vms-alpha.c:7591
+#: vms-alpha.c:7728
 #, c-format
 msgid "   flags: %d, language: %u, major: %u, minor: %u\n"
 msgstr ""

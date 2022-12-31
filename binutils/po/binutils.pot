@@ -1416,7 +1416,9 @@ msgstr ""
 
 #: dlltool.c:3794
 #, c-format
-msgid "   -b --base-file <basefile> Read linker generated base file.\n"
+msgid ""
+"                             Use zero for timestamps and uids/gids in output "
+"libraries\n"
 msgstr ""
 
 #: dlltool.c:3795
@@ -2235,7 +2237,7 @@ msgstr ""
 msgid "%c(indirect string, offset: %#<PRIx64>): %s"
 msgstr ""
 
-#: dwarf.c:2706
+#: dwarf.c:2688
 #, c-format
 msgid "%c(indirect line string, offset: %#<PRIx64>): %s"
 msgstr ""
@@ -13996,17 +13998,17 @@ msgstr ""
 msgid "try to add a ill language."
 msgstr ""
 
-#: windmc.c:1115
+#: windmc.c:1113
 #, c-format
 msgid "unable to open file `%s' for input.\n"
 msgstr ""
 
-#: windmc.c:1123
+#: windmc.c:1121
 #, c-format
 msgid "unable to read contents of %s"
 msgstr ""
 
-#: windmc.c:1135
+#: windmc.c:1133
 msgid "input file does not seems to be UFT16.\n"
 msgstr ""
 

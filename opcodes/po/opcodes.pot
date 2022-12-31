@@ -811,12 +811,12 @@ msgstr ""
 msgid "Address 0x%<PRIx64> is out of bounds.\n"
 msgstr ""
 
-#: disassemble.c:862
+#: disassemble.c:876
 #, c-format
 msgid "assertion fail %s:%d"
 msgstr ""
 
-#: disassemble.c:863
+#: disassemble.c:877
 msgid "Please report this bug"
 msgstr ""
 

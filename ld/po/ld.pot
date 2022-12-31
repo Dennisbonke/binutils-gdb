@@ -4390,6 +4390,15 @@ msgstr ""
 #: eaarch64linux.c:914 eaarch64linux32.c:914 eaarch64linux32b.c:914
 #: eaarch64linuxb.c:914 eaarch64nto.c:1087
 #, c-format
+msgid "  --fix-cortex-a53-835769      Fix erratum 835769\n"
+msgstr ""
+
+#: eaarch64cloudabi.c:874 eaarch64cloudabib.c:874 eaarch64elf.c:869
+#: eaarch64elf32.c:869 eaarch64elf32b.c:869 eaarch64elfb.c:869
+#: eaarch64fbsd.c:874 eaarch64fbsdb.c:874 eaarch64haiku.c:874
+#: eaarch64linux.c:874 eaarch64linux32.c:874 eaarch64linux32b.c:874
+#: eaarch64linuxb.c:874
+#, c-format
 msgid ""
 "  --fix-cortex-a53-843419[=full|adr|adrp]      Fix erratum 843419 and "
 "optionally specify which workaround to use.\n"
@@ -4431,9 +4440,8 @@ msgstr ""
 #: eaarch64linuxb.c:926 eaarch64nto.c:1099
 #, c-format
 msgid ""
-"  -z force-bti                  Turn on Branch Target Identification "
-"mechanism and generate PLTs with BTI. Generate warnings for missing BTI on "
-"inputs\n"
+"  --no-apply-dynamic-relocs    Do not apply link-time values for dynamic "
+"relocations\n"
 msgstr ""
 
 #: eaarch64cloudabi.c:922 eaarch64cloudabib.c:922 eaarch64elf.c:922
@@ -4441,6 +4449,18 @@ msgstr ""
 #: eaarch64fbsd.c:927 eaarch64fbsdb.c:927 eaarch64haiku.c:922
 #: eaarch64linux.c:927 eaarch64linux32.c:927 eaarch64linux32b.c:927
 #: eaarch64linuxb.c:927 eaarch64nto.c:1100
+#, c-format
+msgid ""
+"  -z force-bti                  Turn on Branch Target Identification "
+"mechanism and generate PLTs with BTI. Generate warnings for missing BTI on "
+"inputs\n"
+msgstr ""
+
+#: eaarch64cloudabi.c:887 eaarch64cloudabib.c:887 eaarch64elf.c:882
+#: eaarch64elf32.c:882 eaarch64elf32b.c:882 eaarch64elfb.c:882
+#: eaarch64fbsd.c:887 eaarch64fbsdb.c:887 eaarch64haiku.c:887
+#: eaarch64linux.c:887 eaarch64linux32.c:887 eaarch64linux32b.c:887
+#: eaarch64linuxb.c:887
 #, c-format
 msgid ""
 "  -z pac-plt                    Protect PLTs with Pointer Authentication.\n"
@@ -5309,8 +5329,7 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1174 earmelfb_linux_fdpiceabi.c:1174
 #: earmelfb_nacl.c:1174 earmelfb_nbsd.c:1169 earmnto.c:1129
 #, c-format
-msgid ""
-"  --thumb-entry=<sym>         Set the entry point to be Thumb symbol <sym>\n"
+msgid "  --target1-rel               Interpret R_ARM_TARGET1 as R_ARM_REL32\n"
 msgstr ""
 
 #: earmelf.c:1170 earmelf_fbsd.c:1170 earmelf_fuchsia.c:1175
@@ -5321,7 +5340,7 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1175 earmelfb_linux_fdpiceabi.c:1175
 #: earmelfb_nacl.c:1175 earmelfb_nbsd.c:1170 earmnto.c:1130
 #, c-format
-msgid "  --be8                       Output BE8 format image\n"
+msgid "  --target1-abs               Interpret R_ARM_TARGET1 as R_ARM_ABS32\n"
 msgstr ""
 
 #: earmelf.c:1171 earmelf_fbsd.c:1171 earmelf_fuchsia.c:1176
@@ -5332,7 +5351,7 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1176 earmelfb_linux_fdpiceabi.c:1176
 #: earmelfb_nacl.c:1176 earmelfb_nbsd.c:1171 earmnto.c:1131
 #, c-format
-msgid "  --target1-rel               Interpret R_ARM_TARGET1 as R_ARM_REL32\n"
+msgid "  --target2=<type>            Specify definition of R_ARM_TARGET2\n"
 msgstr ""
 
 #: earmelf.c:1172 earmelf_fbsd.c:1172 earmelf_fuchsia.c:1177
@@ -5343,7 +5362,7 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1177 earmelfb_linux_fdpiceabi.c:1177
 #: earmelfb_nacl.c:1177 earmelfb_nbsd.c:1172 earmnto.c:1132
 #, c-format
-msgid "  --target1-abs               Interpret R_ARM_TARGET1 as R_ARM_ABS32\n"
+msgid "  --fix-v4bx                  Rewrite BX rn as MOV pc, rn for ARMv4\n"
 msgstr ""
 
 #: earmelf.c:1173 earmelf_fbsd.c:1173 earmelf_fuchsia.c:1178
@@ -5354,7 +5373,9 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1178 earmelfb_linux_fdpiceabi.c:1178
 #: earmelfb_nacl.c:1178 earmelfb_nbsd.c:1173 earmnto.c:1133
 #, c-format
-msgid "  --target2=<type>            Specify definition of R_ARM_TARGET2\n"
+msgid ""
+"  --fix-v4bx-interworking     Rewrite BX rn branch to ARMv4 interworking "
+"veneer\n"
 msgstr ""
 
 #: earmelf.c:1174 earmelf_fbsd.c:1174 earmelf_fuchsia.c:1179
@@ -5365,7 +5386,7 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1179 earmelfb_linux_fdpiceabi.c:1179
 #: earmelfb_nacl.c:1179 earmelfb_nbsd.c:1174 earmnto.c:1134
 #, c-format
-msgid "  --fix-v4bx                  Rewrite BX rn as MOV pc, rn for ARMv4\n"
+msgid "  --use-blx                   Enable use of BLX instructions\n"
 msgstr ""
 
 #: earmelf.c:1175 earmelf_fbsd.c:1175 earmelf_fuchsia.c:1180
@@ -5376,9 +5397,7 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1180 earmelfb_linux_fdpiceabi.c:1180
 #: earmelfb_nacl.c:1180 earmelfb_nbsd.c:1175 earmnto.c:1135
 #, c-format
-msgid ""
-"  --fix-v4bx-interworking     Rewrite BX rn branch to ARMv4 interworking "
-"veneer\n"
+msgid "  --vfp11-denorm-fix          Specify how to fix VFP11 denorm erratum\n"
 msgstr ""
 
 #: earmelf.c:1176 earmelf_fbsd.c:1176 earmelf_fuchsia.c:1181
@@ -5424,8 +5443,9 @@ msgstr ""
 #: earmelfb_nacl.c:1189 earmelfb_nbsd.c:1184 earmnto.c:1144
 #, c-format
 msgid ""
-"  --long-plt                  Generate long .plt entries\n"
-"                              to handle large .plt/.got displacements\n"
+"  --cmse-implib               Make import library to be a secure gateway "
+"import\n"
+"                                library as per ARMv8-M Security Extensions\n"
 msgstr ""
 
 #: earmelf.c:1186 earmelf_fbsd.c:1186 earmelf_fuchsia.c:1191
@@ -5841,20 +5861,28 @@ msgstr ""
 #: eelf32_tic6x_linux_le.c:645
 #, c-format
 msgid ""
-"  --dsbt-size <index>     Use this as the number of entries in the DSBT "
-"table\n"
+"  --dsbt-index <index>    Use this as the DSBT index for the output object\n"
 msgstr ""
 
 #: eelf32_tic6x_be.c:646 eelf32_tic6x_elf_be.c:646 eelf32_tic6x_elf_le.c:646
 #: eelf32_tic6x_le.c:646 eelf32_tic6x_linux_be.c:646
 #: eelf32_tic6x_linux_le.c:646
 #, c-format
-msgid "  --no-merge-exidx-entries\n"
+msgid ""
+"  --dsbt-size <index>     Use this as the number of entries in the DSBT "
+"table\n"
 msgstr ""
 
 #: eelf32_tic6x_be.c:647 eelf32_tic6x_elf_be.c:647 eelf32_tic6x_elf_le.c:647
 #: eelf32_tic6x_le.c:647 eelf32_tic6x_linux_be.c:647
 #: eelf32_tic6x_linux_le.c:647
+#, c-format
+msgid "  --no-merge-exidx-entries\n"
+msgstr ""
+
+#: eelf32_tic6x_be.c:620 eelf32_tic6x_elf_be.c:620 eelf32_tic6x_elf_le.c:620
+#: eelf32_tic6x_le.c:620 eelf32_tic6x_linux_be.c:620
+#: eelf32_tic6x_linux_le.c:620
 #, c-format
 msgid "                          Disable merging exidx entries\n"
 msgstr ""
@@ -6557,76 +6585,76 @@ msgstr ""
 msgid "%P: .init/.fini fragments use differing TOC pointers\n"
 msgstr ""
 
-#: eelf64lppc.c:1267 eelf64lppc_fbsd.c:1267 eelf64ppc.c:1267
-#: eelf64ppc_fbsd.c:1267
+#: eelf64lppc.c:1257 eelf64lppc_fbsd.c:1257 eelf64ppc.c:1257
+#: eelf64ppc_fbsd.c:1257
 msgid "%F%P: invalid --power10-stubs argument `%s'\n"
 msgstr ""
 
-#: eelf64lppc.c:1390 eelf64ppc.c:1390
+#: eelf64lppc.c:1380 eelf64ppc.c:1380
 #, c-format
 msgid ""
 "  --plt-static-chain          PLT call stubs should load r11 (default)\n"
 msgstr ""
 
-#: eelf64lppc.c:1393 eelf64ppc.c:1393
+#: eelf64lppc.c:1383 eelf64ppc.c:1383
 #, c-format
 msgid "  --no-plt-static-chain       PLT call stubs should not load r11\n"
 msgstr ""
 
-#: eelf64lppc.c:1396 eelf64lppc_fbsd.c:1396 eelf64ppc.c:1396
-#: eelf64ppc_fbsd.c:1396
+#: eelf64lppc.c:1386 eelf64lppc_fbsd.c:1386 eelf64ppc.c:1386
+#: eelf64ppc_fbsd.c:1386
 #, c-format
 msgid "  --plt-thread-safe           PLT call stubs with load-load barrier\n"
 msgstr ""
 
-#: eelf64lppc.c:1399 eelf64lppc_fbsd.c:1399 eelf64ppc.c:1399
-#: eelf64ppc_fbsd.c:1399
+#: eelf64lppc.c:1389 eelf64lppc_fbsd.c:1389 eelf64ppc.c:1389
+#: eelf64ppc_fbsd.c:1389
 #, c-format
 msgid "  --no-plt-thread-safe        PLT call stubs without barrier\n"
 msgstr ""
 
-#: eelf64lppc.c:1402 eelf64lppc_fbsd.c:1402 eelf64ppc.c:1402
-#: eelf64ppc_fbsd.c:1402
+#: eelf64lppc.c:1392 eelf64lppc_fbsd.c:1392 eelf64ppc.c:1392
+#: eelf64ppc_fbsd.c:1392
 #, c-format
 msgid "  --plt-align [=<align>]      Align PLT call stubs to fit cache lines\n"
 msgstr ""
 
-#: eelf64lppc.c:1408 eelf64lppc_fbsd.c:1408 eelf64ppc.c:1408
-#: eelf64ppc_fbsd.c:1408
+#: eelf64lppc.c:1398 eelf64lppc_fbsd.c:1398 eelf64ppc.c:1398
+#: eelf64ppc_fbsd.c:1398
 #, c-format
 msgid ""
 "  --plt-localentry            Optimize calls to ELFv2 localentry:0 "
 "functions\n"
 msgstr ""
 
-#: eelf64lppc.c:1411 eelf64lppc_fbsd.c:1411 eelf64ppc.c:1411
-#: eelf64ppc_fbsd.c:1411
+#: eelf64lppc.c:1401 eelf64lppc_fbsd.c:1401 eelf64ppc.c:1401
+#: eelf64ppc_fbsd.c:1401
 #, c-format
 msgid "  --no-plt-localentry         Don't optimize ELFv2 calls\n"
 msgstr ""
 
-#: eelf64lppc.c:1414 eelf64lppc_fbsd.c:1414 eelf64ppc.c:1414
-#: eelf64ppc_fbsd.c:1414
+#: eelf64lppc.c:1404 eelf64lppc_fbsd.c:1404 eelf64ppc.c:1404
+#: eelf64ppc_fbsd.c:1404
 #, c-format
 msgid ""
 "  --power10-stubs [=auto]     Use Power10 PLT call stubs (default auto)\n"
 msgstr ""
 
-#: eelf64lppc.c:1417 eelf64lppc_fbsd.c:1417 eelf64ppc.c:1417
-#: eelf64ppc_fbsd.c:1417
+#: eelf64lppc.c:1407 eelf64lppc_fbsd.c:1407 eelf64ppc.c:1407
+#: eelf64ppc_fbsd.c:1407
 #, c-format
 msgid ""
 "  --no-pcrel-optimize         Don't perform R_PPC64_PCREL_OPT optimization\n"
 msgstr ""
 
-#: eelf64lppc.c:1420 eelf64lppc_fbsd.c:1420 eelf64ppc.c:1420
-#: eelf64ppc_fbsd.c:1420
+#: eelf64lppc.c:1410 eelf64lppc_fbsd.c:1410 eelf64ppc.c:1410
+#: eelf64ppc_fbsd.c:1410
 #, c-format
 msgid "  --no-power10-stubs          Don't use Power10 PLT call stubs\n"
 msgstr ""
 
-#: eelf64lppc.c:1429 eelf64lppc_fbsd.c:1429 eelf64ppc.c:1429
-#: eelf64ppc_fbsd.c:1429
+#: eelf64lppc.c:1419 eelf64lppc_fbsd.c:1419 eelf64ppc.c:1419
+#: eelf64ppc_fbsd.c:1419
 #, c-format
 msgid ""
 "  --dotsyms                   For every version pattern \"foo\" in a "
@@ -6636,15 +6664,15 @@ msgid ""
 "                                descriptor symbols.  Defaults to on.\n"
 msgstr ""
 
-#: eelf64lppc.c:1435 eelf64lppc_fbsd.c:1435 eelf64ppc.c:1435
-#: eelf64ppc_fbsd.c:1435
+#: eelf64lppc.c:1425 eelf64lppc_fbsd.c:1425 eelf64ppc.c:1425
+#: eelf64ppc_fbsd.c:1425
 #, c-format
 msgid ""
 "  --no-dotsyms                Don't do anything special in version scripts\n"
 msgstr ""
 
-#: eelf64lppc.c:1438 eelf64lppc_fbsd.c:1438 eelf64ppc.c:1438
-#: eelf64ppc_fbsd.c:1438
+#: eelf64lppc.c:1428 eelf64lppc_fbsd.c:1428 eelf64ppc.c:1428
+#: eelf64ppc_fbsd.c:1428
 #, c-format
 msgid ""
 "  --save-restore-funcs        Provide register save and restore routines "
@@ -6653,71 +6681,71 @@ msgid ""
 "                                final link, off for ld -r.\n"
 msgstr ""
 
-#: eelf64lppc.c:1443 eelf64lppc_fbsd.c:1443 eelf64ppc.c:1443
-#: eelf64ppc_fbsd.c:1443
+#: eelf64lppc.c:1433 eelf64lppc_fbsd.c:1433 eelf64ppc.c:1433
+#: eelf64ppc_fbsd.c:1433
 #, c-format
 msgid "  --no-save-restore-funcs     Don't provide these routines\n"
 msgstr ""
 
-#: eelf64lppc.c:1449 eelf64lppc_fbsd.c:1449 eelf64ppc.c:1449
-#: eelf64ppc_fbsd.c:1449
+#: eelf64lppc.c:1439 eelf64lppc_fbsd.c:1439 eelf64ppc.c:1439
+#: eelf64ppc_fbsd.c:1439
 #, c-format
 msgid ""
 "  --tls-get-addr-optimize     Force use of special __tls_get_addr call\n"
 msgstr ""
 
-#: eelf64lppc.c:1455 eelf64lppc_fbsd.c:1455 eelf64ppc.c:1455
-#: eelf64ppc_fbsd.c:1455
+#: eelf64lppc.c:1445 eelf64lppc_fbsd.c:1445 eelf64ppc.c:1445
+#: eelf64ppc_fbsd.c:1445
 #, c-format
 msgid "  --tls-get-addr-regsave      Force register save __tls_get_addr stub\n"
 msgstr ""
 
-#: eelf64lppc.c:1458 eelf64lppc_fbsd.c:1458 eelf64ppc.c:1458
-#: eelf64ppc_fbsd.c:1458
+#: eelf64lppc.c:1448 eelf64lppc_fbsd.c:1448 eelf64ppc.c:1448
+#: eelf64ppc_fbsd.c:1448
 #, c-format
 msgid ""
 "  --no-tls-get-addr-regsave   Don't use register save __tls_get_addr stub\n"
 msgstr ""
 
-#: eelf64lppc.c:1461 eelf64lppc_fbsd.c:1461 eelf64ppc.c:1461
-#: eelf64ppc_fbsd.c:1461
+#: eelf64lppc.c:1451 eelf64lppc_fbsd.c:1451 eelf64ppc.c:1451
+#: eelf64ppc_fbsd.c:1451
 #, c-format
 msgid "  --no-opd-optimize           Don't optimize the OPD section\n"
 msgstr ""
 
-#: eelf64lppc.c:1467 eelf64lppc_fbsd.c:1467 eelf64ppc.c:1467
-#: eelf64ppc_fbsd.c:1467
+#: eelf64lppc.c:1457 eelf64lppc_fbsd.c:1457 eelf64ppc.c:1457
+#: eelf64ppc_fbsd.c:1457
 #, c-format
 msgid "  --no-toc-optimize           Don't optimize the TOC section\n"
 msgstr ""
 
-#: eelf64lppc.c:1470 eelf64lppc_fbsd.c:1470 eelf64ppc.c:1470
-#: eelf64ppc_fbsd.c:1470
+#: eelf64lppc.c:1460 eelf64lppc_fbsd.c:1460 eelf64ppc.c:1460
+#: eelf64ppc_fbsd.c:1460
 #, c-format
 msgid ""
 "  --no-multi-toc              Disallow automatic multiple toc sections\n"
 msgstr ""
 
-#: eelf64lppc.c:1473 eelf64lppc_fbsd.c:1473 eelf64ppc.c:1473
-#: eelf64ppc_fbsd.c:1473
+#: eelf64lppc.c:1463 eelf64lppc_fbsd.c:1463 eelf64ppc.c:1463
+#: eelf64ppc_fbsd.c:1463
 #, c-format
 msgid "  --no-toc-sort               Don't sort TOC and GOT sections\n"
 msgstr ""
 
-#: eelf64lppc.c:1476 eelf64lppc_fbsd.c:1476 eelf64ppc.c:1476
-#: eelf64ppc_fbsd.c:1476
+#: eelf64lppc.c:1466 eelf64lppc_fbsd.c:1466 eelf64ppc.c:1466
+#: eelf64ppc_fbsd.c:1466
 #, c-format
 msgid ""
 "  --non-overlapping-opd       Canonicalize .opd, so that there are no\n"
 "                                overlapping .opd entries\n"
 msgstr ""
 
-#: eelf64lppc_fbsd.c:1390 eelf64ppc_fbsd.c:1390
+#: eelf64lppc_fbsd.c:1380 eelf64ppc_fbsd.c:1380
 #, c-format
 msgid "  --plt-static-chain          PLT call stubs should load r111\n"
 msgstr ""
 
-#: eelf64lppc_fbsd.c:1393 eelf64ppc_fbsd.c:1393
+#: eelf64lppc_fbsd.c:1383 eelf64ppc_fbsd.c:1383
 #, c-format
 msgid ""
 "  --no-plt-static-chain       PLT call stubs should not load r11 (default)\n"
