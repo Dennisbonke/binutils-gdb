@@ -286,7 +286,22 @@ msgstr "  --gdwarf-cie-version=<N> створити CIE DWARF версії 1, 3 
 msgid "  --gdwarf-sections       generate per-function section names for DWARF line information\n"
 msgstr "  --gdwarf-sections       створювати назви розділів для окремих функцій для даних рядків DWARF\n"
 
-#: as.c:348
+#: as.c:338
+#, c-format
+msgid "  --gcodeview             generate CodeView debugging information\n"
+msgstr "  --gcodeview             створити діагностичні дані CodeView\n"
+
+#: as.c:341
+#, c-format
+msgid "  --hash-size=<N>         ignored\n"
+msgstr "  --hash-size=<N>         буде проігноровано\n"
+
+#: as.c:343
+#, c-format
+msgid "  --help                  show all assembler options\n"
+msgstr "  --help                  вивести усі параметри асемблера\n"
+
+#: as.c:345
 #, c-format
 msgid "  --gcodeview             generate CodeView debugging information\n"
 msgstr "  --gcodeview             створити діагностичні дані CodeView\n"
@@ -371,6 +386,11 @@ msgid "  --reduce-memory-overheads ignored\n"
 msgstr "  --reduce-memory-overheads буде проігноровано\n"
 
 #: as.c:382
+#, c-format
+msgid "  --reduce-memory-overheads ignored\n"
+msgstr "  --reduce-memory-overheads буде проігноровано\n"
+
+#: as.c:372
 #, c-format
 msgid "  --statistics            print various measured statistics from execution\n"
 msgstr "  --statistics            вивести різноманітні виміряні статистичні дані щодо виконання\n"
@@ -13282,7 +13302,7 @@ msgstr "у макросі використано $at після «.set noat»"
 msgid "number (0x%<PRIx64>) larger than 32 bits"
 msgstr "число (0x%<PRIx64>), що за розміром перевищує 32 бітів"
 
-#: config/tc-mips.c:9527
+#: config/tc-mips.c:9525
 msgid "number larger than 64 bits"
 msgstr "число, що перевищує за розміром 64 біти"
 
@@ -15268,11 +15288,11 @@ msgid "Addend to unresolved symbol is not on word boundary."
 msgstr "Доданок до невизначено символу не перебуває на межі слова."
 
 #. Should never here.
-#: config/tc-nds32.c:7617
+#: config/tc-nds32.c:7615
 msgid "Used FPU instructions requires enabling FPU extension"
 msgstr "Використані інструкції FPU потребують вмикання розширення FPU"
 
-#: config/tc-nds32.c:7813
+#: config/tc-nds32.c:7811
 #, c-format
 msgid "Internal error: Unknown fixup type %d (`%s')"
 msgstr "Внутрішня помилка: невідомий тип коригування %d («%s»)"
@@ -23610,11 +23630,11 @@ msgstr "внутрішня помилка: виправлення не міст�
 msgid "can't extend frag"
 msgstr "неможливо розширити фрагмент"
 
-#: write.c:1627
+#: write.c:1614
 msgid "unimplemented .nops directive"
 msgstr "нереалізована директива .nops"
 
-#: write.c:1661
+#: write.c:1648
 #, c-format
 msgid "can't write %ld byte to section %s of %s: '%s'"
 msgid_plural "can't write %ld bytes to section %s of %s: '%s'"

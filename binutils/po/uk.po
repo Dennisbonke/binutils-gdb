@@ -2221,7 +2221,7 @@ msgstr "%c(зсув: %#<PRIx64>): %s"
 msgid "%c(indirect string, offset: %#<PRIx64>): %s"
 msgstr "%c(опосередкований рядок, зсув: %#<PRIx64>): %s"
 
-#: dwarf.c:2706
+#: dwarf.c:2688
 #, c-format
 msgid "%c(indirect line string, offset: %#<PRIx64>): %s"
 msgstr "%c(опосередкований рядок, зсув: %#<PRIx64>): %s"
@@ -14488,17 +14488,17 @@ msgstr "\tпараметри кодової сторінки ігнорують�
 msgid "try to add a ill language."
 msgstr "спроба додати некоректну мову."
 
-#: windmc.c:1115
+#: windmc.c:1113
 #, c-format
 msgid "unable to open file `%s' for input.\n"
 msgstr "не вдалося відкрити файл «%s» для отримання вхідних даних.\n"
 
-#: windmc.c:1123
+#: windmc.c:1121
 #, c-format
 msgid "unable to read contents of %s"
 msgstr "не вдалося прочитати вміст %s"
 
-#: windmc.c:1135
+#: windmc.c:1133
 msgid "input file does not seems to be UFT16.\n"
 msgstr "вхідний файл не у кодуванні UFT16.\n"
 

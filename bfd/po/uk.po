@@ -1127,7 +1127,7 @@ msgstr "%pB: некоректний запис (%#x) у групі [%u]"
 msgid "%pB: unexpected type (%#x) section `%s' in group [%u]"
 msgstr "%pB: розділ неочікуваного типу (%#x) «%s» у групі [%u]"
 
-#: elf.c:740
+#: elf.c:741
 #, c-format
 msgid "%pB: sh_link [%d] in section `%pA' is incorrect"
 msgstr "%pB: sh_link [%d] у розділі «%pA» є некоректним"
@@ -1864,32 +1864,32 @@ msgstr "непідтримуване пересування"
 msgid "unknown error"
 msgstr "невідома помилка"
 
-#: elf32-arm.c:13913
+#: elf32-arm.c:13916
 #, c-format
 msgid "warning: not setting interworking flag of %pB since it has already been specified as non-interworking"
 msgstr "попередження: прапорець сумісної роботи у %pB не встановлено, оскільки його вже було визначено так, щоб він забороняв сумісну роботу"
 
-#: elf32-arm.c:13917
+#: elf32-arm.c:13920
 #, c-format
 msgid "warning: clearing the interworking flag of %pB due to outside request"
 msgstr "попередження: знято прапорець сумісної роботи у %pB у відповідь на запит ззовні"
 
-#: elf32-arm.c:13962
+#: elf32-arm.c:13965
 #, c-format
 msgid "warning: clearing the interworking flag of %pB because non-interworking code in %pB has been linked with it"
 msgstr "попередження: знято прапорець сумісної роботи у %pB, оскільки з ним компонується код, який непридатний до спільної роботи, у %pB"
 
-#: elf32-arm.c:14049
+#: elf32-arm.c:14052
 #, c-format
 msgid "%pB: unknown mandatory EABI object attribute %d"
 msgstr "%pB: невідомий обов’язковий атрибути об’єкта EABI %d"
 
-#: elf32-arm.c:14057
+#: elf32-arm.c:14060
 #, c-format
 msgid "warning: %pB: unknown EABI object attribute %d"
 msgstr "попередження: %pB: невідомий атрибут об’єкта EABI %d"
 
-#: elf32-arm.c:14392
+#: elf32-arm.c:14395
 #, c-format
 msgid "error: %pB: unknown CPU architecture"
 msgstr "помилка: %pB: невідома архітектура процесора"
@@ -1899,12 +1899,12 @@ msgstr "помилка: %pB: невідома архітектура проце�
 msgid "error: conflicting CPU architectures %s vs %s in %pB"
 msgstr "помилка: конфлікт архітектур процесорів, %s або %s, у %pB"
 
-#: elf32-arm.c:14527
+#: elf32-arm.c:14530
 #, c-format
 msgid "Error: %pB has both the current and legacy Tag_MPextension_use attributes"
 msgstr "Помилка: для %pB визначено одразу обидва атрибути Tag_MPextension_use, current і legacy"
 
-#: elf32-arm.c:14564
+#: elf32-arm.c:14567
 #, c-format
 msgid "error: %pB uses VFP register arguments, %pB does not"
 msgstr "помилка: у %pB використовуються аргументи регістри VFP, а у %pB — ні"
@@ -6402,7 +6402,7 @@ msgstr "непридатний до обробки тип розділу фай�
 msgid "%pB: symbol indicates overlay (not supported)"
 msgstr "%pB: символ вказує на накладку (немає підтримки накладок)"
 
-#: pef.c:530
+#: pef.c:531
 #, c-format
 msgid "bfd_pef_scan: unknown architecture 0x%lx"
 msgstr "bfd_pef_scan: невідома архітектура, 0x%lx"
@@ -6528,7 +6528,7 @@ msgstr "%pB: некоректне NumberOfRvaAndSizes"
 msgid "plugin framework: out of file descriptors. Try using fewer objects/archives\n"
 msgstr "бібліотека додатків: вихід за межі дескрипторів файлів. Спробуйте зменшити кількість об'єктів/архівів\n"
 
-#: ppcboot.c:392
+#: ppcboot.c:393
 #, c-format
 msgid ""
 "\n"
@@ -6537,27 +6537,27 @@ msgstr ""
 "\n"
 "Заголовок ppcboot:\n"
 
-#: ppcboot.c:393
+#: ppcboot.c:394
 #, c-format
 msgid "Entry offset        = 0x%.8lx (%ld)\n"
 msgstr "Відступ входу       = 0x%.8lx (%ld)\n"
 
-#: ppcboot.c:395
+#: ppcboot.c:396
 #, c-format
 msgid "Length              = 0x%.8lx (%ld)\n"
 msgstr "Довжина             = 0x%.8lx (%ld)\n"
 
-#: ppcboot.c:399
+#: ppcboot.c:400
 #, c-format
 msgid "Flag field          = 0x%.2x\n"
 msgstr "Поле прапорців      = 0x%.2x\n"
 
-#: ppcboot.c:405
+#: ppcboot.c:406
 #, c-format
 msgid "Partition name      = \"%s\"\n"
 msgstr "Назва розділу       = \"%s\"\n"
 
-#: ppcboot.c:425
+#: ppcboot.c:426
 #, c-format
 msgid ""
 "\n"
@@ -6566,17 +6566,17 @@ msgstr ""
 "\n"
 "Початок розділу[%d]  = { 0x%.2x, 0x%.2x, 0x%.2x, 0x%.2x }\n"
 
-#: ppcboot.c:432
+#: ppcboot.c:433
 #, c-format
 msgid "Partition[%d] end    = { 0x%.2x, 0x%.2x, 0x%.2x, 0x%.2x }\n"
 msgstr "Кінець розділу[%d]   = { 0x%.2x, 0x%.2x, 0x%.2x, 0x%.2x }\n"
 
-#: ppcboot.c:439
+#: ppcboot.c:440
 #, c-format
 msgid "Partition[%d] sector = 0x%.8lx (%ld)\n"
 msgstr "Сектор розділу[%d]   = 0x%.8lx (%ld)\n"
 
-#: ppcboot.c:443
+#: ppcboot.c:444
 #, c-format
 msgid "Partition[%d] length = 0x%.8lx (%ld)\n"
 msgstr "Довжина розділу[%d] = 0x%.8lx (%ld)\n"

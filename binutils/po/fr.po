@@ -2218,7 +2218,7 @@ msgstr "%c(offset : %#<PRIx64>) : %s"
 msgid "%c(indirect string, offset: %#<PRIx64>): %s"
 msgstr "%c(chaîne indirecte, décalage: %#<PRIx64>): %s"
 
-#: dwarf.c:2706
+#: dwarf.c:2688
 #, c-format
 msgid "%c(indirect line string, offset: %#<PRIx64>): %s"
 msgstr "%c(chaîne de ligne indirecte, décalage: %#<PRIx64>): %s"
@@ -14334,17 +14334,17 @@ msgstr "\tles paramètres de codepage sont ignorés.\n"
 msgid "try to add a ill language."
 msgstr "tentative d'ajouter un mauvais langage."
 
-#: windmc.c:1115
+#: windmc.c:1113
 #, c-format
 msgid "unable to open file `%s' for input.\n"
 msgstr "impossible d'ouvrir le fichier « %s » en entrée.\n"
 
-#: windmc.c:1123
+#: windmc.c:1121
 #, c-format
 msgid "unable to read contents of %s"
 msgstr "incapable de lire le contenu de %s"
 
-#: windmc.c:1135
+#: windmc.c:1133
 msgid "input file does not seems to be UFT16.\n"
 msgstr "le fichier d'entrée ne semble pas être en UTF16.\n"
 
