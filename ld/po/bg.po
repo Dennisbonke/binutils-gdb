@@ -5287,7 +5287,7 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1204 earmelfb_linux_fdpiceabi.c:1204
 #: earmelfb_nacl.c:1204 earmelfb_nbsd.c:1199 earmnto.c:1159
 #, c-format
-msgid "  --[no-]fix-cortex-a8        Disable/enable Cortex-A8 Thumb-2 branch erratum fix\n"
+msgid "  --fix-v4bx-interworking     Rewrite BX rn branch to ARMv4 interworking veneer\n"
 msgstr ""
 
 #: earmelf.c:1200 earmelf_fbsd.c:1200 earmelf_fuchsia.c:1205
@@ -5298,7 +5298,7 @@ msgstr ""
 #: earmelfb_linux_eabi.c:1205 earmelfb_linux_fdpiceabi.c:1205
 #: earmelfb_nacl.c:1205 earmelfb_nbsd.c:1200 earmnto.c:1160
 #, c-format
-msgid "  --no-merge-exidx-entries    Disable merging exidx entries\n"
+msgid "  --use-blx                   Enable use of BLX instructions\n"
 msgstr ""
 
 #: earmelf.c:1201 earmelf_fbsd.c:1201 earmelf_fuchsia.c:1206
@@ -5308,6 +5308,89 @@ msgstr ""
 #: earmelfb_fbsd.c:1201 earmelfb_fuchsia.c:1206 earmelfb_linux.c:1206
 #: earmelfb_linux_eabi.c:1206 earmelfb_linux_fdpiceabi.c:1206
 #: earmelfb_nacl.c:1206 earmelfb_nbsd.c:1201 earmnto.c:1161
+#, c-format
+msgid "  --vfp11-denorm-fix          Specify how to fix VFP11 denorm erratum\n"
+msgstr ""
+
+#: earmelf.c:1158 earmelf_fbsd.c:1158 earmelf_fuchsia.c:1163
+#: earmelf_haiku.c:1163 earmelf_linux.c:1163 earmelf_linux_eabi.c:1163
+#: earmelf_linux_fdpiceabi.c:1163 earmelf_nacl.c:1163 earmelf_nbsd.c:1158
+#: earmelf_phoenix.c:1163 earmelf_vxworks.c:1198 earmelfb.c:1158
+#: earmelfb_fbsd.c:1158 earmelfb_fuchsia.c:1163 earmelfb_linux.c:1163
+#: earmelfb_linux_eabi.c:1163 earmelfb_linux_fdpiceabi.c:1163
+#: earmelfb_nacl.c:1163 earmelfb_nbsd.c:1158 earmnto.c:1133
+#, c-format
+msgid "  --fix-stm32l4xx-629360      Specify how to fix STM32L4XX 629360 erratum\n"
+msgstr ""
+
+#: earmelf.c:1164 earmelf_fbsd.c:1164 earmelf_fuchsia.c:1169
+#: earmelf_haiku.c:1169 earmelf_linux.c:1169 earmelf_linux_eabi.c:1169
+#: earmelf_linux_fdpiceabi.c:1169 earmelf_nacl.c:1169 earmelf_nbsd.c:1164
+#: earmelf_phoenix.c:1169 earmelf_vxworks.c:1204 earmelfb.c:1164
+#: earmelfb_fbsd.c:1164 earmelfb_fuchsia.c:1169 earmelfb_linux.c:1169
+#: earmelfb_linux_eabi.c:1169 earmelfb_linux_fdpiceabi.c:1169
+#: earmelfb_nacl.c:1169 earmelfb_nbsd.c:1164 earmnto.c:1139
+#, c-format
+msgid ""
+"  --long-plt                  Generate long .plt entries\n"
+"                              to handle large .plt/.got displacements\n"
+msgstr ""
+
+#: earmelf.c:1166 earmelf_fbsd.c:1166 earmelf_fuchsia.c:1171
+#: earmelf_haiku.c:1171 earmelf_linux.c:1171 earmelf_linux_eabi.c:1171
+#: earmelf_linux_fdpiceabi.c:1171 earmelf_nacl.c:1171 earmelf_nbsd.c:1166
+#: earmelf_phoenix.c:1171 earmelf_vxworks.c:1206 earmelfb.c:1166
+#: earmelfb_fbsd.c:1166 earmelfb_fuchsia.c:1171 earmelfb_linux.c:1171
+#: earmelfb_linux_eabi.c:1171 earmelfb_linux_fdpiceabi.c:1171
+#: earmelfb_nacl.c:1171 earmelfb_nbsd.c:1166 earmnto.c:1141
+#, c-format
+msgid ""
+"  --cmse-implib               Make import library to be a secure gateway import\n"
+"                                library as per ARMv8-M Security Extensions\n"
+msgstr ""
+
+#: earmelf.c:1168 earmelf_fbsd.c:1168 earmelf_fuchsia.c:1173
+#: earmelf_haiku.c:1173 earmelf_linux.c:1173 earmelf_linux_eabi.c:1173
+#: earmelf_linux_fdpiceabi.c:1173 earmelf_nacl.c:1173 earmelf_nbsd.c:1168
+#: earmelf_phoenix.c:1173 earmelf_vxworks.c:1208 earmelfb.c:1168
+#: earmelfb_fbsd.c:1168 earmelfb_fuchsia.c:1173 earmelfb_linux.c:1173
+#: earmelfb_linux_eabi.c:1173 earmelfb_linux_fdpiceabi.c:1173
+#: earmelfb_nacl.c:1173 earmelfb_nbsd.c:1168 earmnto.c:1143
+#, c-format
+msgid ""
+"  --in-implib                 Import library whose symbols address must\n"
+"                                remain stable\n"
+msgstr ""
+
+#: earmelf.c:1179 earmelf_fbsd.c:1179 earmelf_fuchsia.c:1184
+#: earmelf_haiku.c:1184 earmelf_linux.c:1184 earmelf_linux_eabi.c:1184
+#: earmelf_linux_fdpiceabi.c:1184 earmelf_nacl.c:1184 earmelf_nbsd.c:1179
+#: earmelf_phoenix.c:1184 earmelf_vxworks.c:1219 earmelfb.c:1179
+#: earmelfb_fbsd.c:1179 earmelfb_fuchsia.c:1184 earmelfb_linux.c:1184
+#: earmelfb_linux_eabi.c:1184 earmelfb_linux_fdpiceabi.c:1184
+#: earmelfb_nacl.c:1184 earmelfb_nbsd.c:1179 earmnto.c:1154
+#, c-format
+msgid "  --[no-]fix-cortex-a8        Disable/enable Cortex-A8 Thumb-2 branch erratum fix\n"
+msgstr ""
+
+#: earmelf.c:1180 earmelf_fbsd.c:1180 earmelf_fuchsia.c:1185
+#: earmelf_haiku.c:1185 earmelf_linux.c:1185 earmelf_linux_eabi.c:1185
+#: earmelf_linux_fdpiceabi.c:1185 earmelf_nacl.c:1185 earmelf_nbsd.c:1180
+#: earmelf_phoenix.c:1185 earmelf_vxworks.c:1220 earmelfb.c:1180
+#: earmelfb_fbsd.c:1180 earmelfb_fuchsia.c:1185 earmelfb_linux.c:1185
+#: earmelfb_linux_eabi.c:1185 earmelfb_linux_fdpiceabi.c:1185
+#: earmelfb_nacl.c:1185 earmelfb_nbsd.c:1180 earmnto.c:1155
+#, c-format
+msgid "  --no-merge-exidx-entries    Disable merging exidx entries\n"
+msgstr ""
+
+#: earmelf.c:1181 earmelf_fbsd.c:1181 earmelf_fuchsia.c:1186
+#: earmelf_haiku.c:1186 earmelf_linux.c:1186 earmelf_linux_eabi.c:1186
+#: earmelf_linux_fdpiceabi.c:1186 earmelf_nacl.c:1186 earmelf_nbsd.c:1181
+#: earmelf_phoenix.c:1186 earmelf_vxworks.c:1221 earmelfb.c:1181
+#: earmelfb_fbsd.c:1181 earmelfb_fuchsia.c:1186 earmelfb_linux.c:1186
+#: earmelfb_linux_eabi.c:1186 earmelfb_linux_fdpiceabi.c:1186
+#: earmelfb_nacl.c:1186 earmelfb_nbsd.c:1181 earmnto.c:1156
 #, c-format
 msgid "  --[no-]fix-arm1176          Disable/enable ARM1176 BLX immediate erratum fix\n"
 msgstr ""
@@ -6374,29 +6457,53 @@ msgstr ""
 #: eelf64lppc.c:1411 eelf64lppc_fbsd.c:1411 eelf64ppc.c:1411
 #: eelf64ppc_fbsd.c:1411
 #, c-format
-msgid "  --no-plt-localentry         Don't optimize ELFv2 calls\n"
+msgid "  --plt-thread-safe           PLT call stubs with load-load barrier\n"
 msgstr ""
 
 #: eelf64lppc.c:1414 eelf64lppc_fbsd.c:1414 eelf64ppc.c:1414
 #: eelf64ppc_fbsd.c:1414
 #, c-format
-msgid "  --power10-stubs [=auto]     Use Power10 PLT call stubs (default auto)\n"
+msgid "  --no-plt-thread-safe        PLT call stubs without barrier\n"
 msgstr ""
 
 #: eelf64lppc.c:1417 eelf64lppc_fbsd.c:1417 eelf64ppc.c:1417
 #: eelf64ppc_fbsd.c:1417
 #, c-format
-msgid "  --no-pcrel-optimize         Don't perform R_PPC64_PCREL_OPT optimization\n"
+msgid "  --plt-align [=<align>]      Align PLT call stubs to fit cache lines\n"
 msgstr ""
 
 #: eelf64lppc.c:1420 eelf64lppc_fbsd.c:1420 eelf64ppc.c:1420
 #: eelf64ppc_fbsd.c:1420
 #, c-format
-msgid "  --no-power10-stubs          Don't use Power10 PLT call stubs\n"
+msgid "  --plt-localentry            Optimize calls to ELFv2 localentry:0 functions\n"
+msgstr ""
+
+#: eelf64lppc.c:1401 eelf64lppc_fbsd.c:1401 eelf64ppc.c:1401
+#: eelf64ppc_fbsd.c:1401
+#, c-format
+msgid "  --no-plt-localentry         Don't optimize ELFv2 calls\n"
 msgstr ""
 
 #: eelf64lppc.c:1429 eelf64lppc_fbsd.c:1429 eelf64ppc.c:1429
 #: eelf64ppc_fbsd.c:1429
+#, c-format
+msgid "  --power10-stubs [=auto]     Use Power10 PLT call stubs (default auto)\n"
+msgstr ""
+
+#: eelf64lppc.c:1407 eelf64lppc_fbsd.c:1407 eelf64ppc.c:1407
+#: eelf64ppc_fbsd.c:1407
+#, c-format
+msgid "  --no-pcrel-optimize         Don't perform R_PPC64_PCREL_OPT optimization\n"
+msgstr ""
+
+#: eelf64lppc.c:1410 eelf64lppc_fbsd.c:1410 eelf64ppc.c:1410
+#: eelf64ppc_fbsd.c:1410
+#, c-format
+msgid "  --no-power10-stubs          Don't use Power10 PLT call stubs\n"
+msgstr ""
+
+#: eelf64lppc.c:1419 eelf64lppc_fbsd.c:1419 eelf64ppc.c:1419
+#: eelf64ppc_fbsd.c:1419
 #, c-format
 msgid ""
 "  --dotsyms                   For every version pattern \"foo\" in a version\n"
@@ -6459,17 +6566,41 @@ msgstr ""
 #: eelf64lppc.c:1470 eelf64lppc_fbsd.c:1470 eelf64ppc.c:1470
 #: eelf64ppc_fbsd.c:1470
 #, c-format
-msgid "  --no-multi-toc              Disallow automatic multiple toc sections\n"
+msgid "  --tls-get-addr-regsave      Force register save __tls_get_addr stub\n"
 msgstr ""
 
 #: eelf64lppc.c:1473 eelf64lppc_fbsd.c:1473 eelf64ppc.c:1473
 #: eelf64ppc_fbsd.c:1473
 #, c-format
-msgid "  --no-toc-sort               Don't sort TOC and GOT sections\n"
+msgid "  --no-tls-get-addr-regsave   Don't use register save __tls_get_addr stub\n"
 msgstr ""
 
 #: eelf64lppc.c:1476 eelf64lppc_fbsd.c:1476 eelf64ppc.c:1476
 #: eelf64ppc_fbsd.c:1476
+#, c-format
+msgid "  --no-opd-optimize           Don't optimize the OPD section\n"
+msgstr ""
+
+#: eelf64lppc.c:1457 eelf64lppc_fbsd.c:1457 eelf64ppc.c:1457
+#: eelf64ppc_fbsd.c:1457
+#, c-format
+msgid "  --no-toc-optimize           Don't optimize the TOC section\n"
+msgstr ""
+
+#: eelf64lppc.c:1460 eelf64lppc_fbsd.c:1460 eelf64ppc.c:1460
+#: eelf64ppc_fbsd.c:1460
+#, c-format
+msgid "  --no-multi-toc              Disallow automatic multiple toc sections\n"
+msgstr ""
+
+#: eelf64lppc.c:1463 eelf64lppc_fbsd.c:1463 eelf64ppc.c:1463
+#: eelf64ppc_fbsd.c:1463
+#, c-format
+msgid "  --no-toc-sort               Don't sort TOC and GOT sections\n"
+msgstr ""
+
+#: eelf64lppc.c:1466 eelf64lppc_fbsd.c:1466 eelf64ppc.c:1466
+#: eelf64ppc_fbsd.c:1466
 #, c-format
 msgid ""
 "  --non-overlapping-opd       Canonicalize .opd, so that there are no\n"
