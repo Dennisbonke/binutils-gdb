@@ -2317,7 +2317,7 @@ msgstr "%c(poziția:%#<PRIx64>): %s"
 msgid "%c(indirect string, offset: %#<PRIx64>): %s"
 msgstr "%c(șir indirect, decalaj: %#<PRIx64>): %s"
 
-#: dwarf.c:2706
+#: dwarf.c:2688
 #, c-format
 msgid "%c(indirect line string, offset: %#<PRIx64>): %s"
 msgstr "%c(șir de linie indirectă, decalaj: %#<PRIx64>): %s"
@@ -6809,21 +6809,21 @@ msgstr "      --no-addresses             nu afișează adresa alături de dezasa
 msgid "      --prefix-addresses         Print complete address alongside disassembly\n"
 msgstr "      --prefix-addresses         afișează adresa completă alături de dezasamblare\n"
 
-#: objdump.c:399
+#: objdump.c:422
 #, c-format
 msgid "      --[no-]show-raw-insn       Display hex alongside symbolic disassembly\n"
 msgstr ""
 "      --[no-]show-raw-insn       afișează hexazecimalul alături de dezasamblarea\n"
 "                                 simbolică\n"
 
-#: objdump.c:401
+#: objdump.c:424
 #, c-format
 msgid "      --insn-width=WIDTH         Display WIDTH bytes on a single line for -d\n"
 msgstr ""
 "      --insn-width=LĂȚIMEA       afișează LĂȚIMEA de octeți pe o singură linie\n"
 "                                 pentru „-d”\n"
 
-#: objdump.c:403
+#: objdump.c:426
 #, c-format
 msgid "      --adjust-vma=OFFSET        Add OFFSET to all displayed section addresses\n"
 msgstr ""
@@ -14780,17 +14780,17 @@ msgstr "\tconfigurările paginii de cod sunt ignorate.\n"
 msgid "try to add a ill language."
 msgstr "încercare de-a adăuga un limbaj eronat."
 
-#: windmc.c:1115
+#: windmc.c:1113
 #, c-format
 msgid "unable to open file `%s' for input.\n"
 msgstr "nu se poate deschide fișierul „%s” pentru intrare.\n"
 
-#: windmc.c:1123
+#: windmc.c:1121
 #, c-format
 msgid "unable to read contents of %s"
 msgstr "nu se poate citi conținutul lui %s"
 
-#: windmc.c:1135
+#: windmc.c:1133
 msgid "input file does not seems to be UFT16.\n"
 msgstr "fișierul de intrare nu pare să fie UFT16.\n"
 

@@ -1847,16 +1847,16 @@ msgstr "DRIVER име      : %s\n"
 msgid "DRIVER options  : %s\n"
 msgstr "DRIVER опции    : %s\n"
 
-#: dwarf.c:187
+#: dwarf.c:186
 msgid "Encoded value extends past end of section\n"
 msgstr ""
 
-#: dwarf.c:195
+#: dwarf.c:194
 #, c-format
 msgid "Encoded size of %d is too large to read\n"
 msgstr ""
 
-#: dwarf.c:203
+#: dwarf.c:202
 msgid "Encoded size of 0 is too small to read\n"
 msgstr ""
 
@@ -3782,6 +3782,8 @@ msgstr " Таблица с отместване: %#<PRIx64>:\n"
 #: dwarf.c:8295
 msgid "Only DWARF version 5+ debug_rnglists info is currently supported.\n"
 msgstr ""
+"\n"
+"  Отместване: %#<PRIx64>, Указател: %#<PRIx64>\n"
 
 #: dwarf.c:8302
 #, c-format
@@ -5626,7 +5628,7 @@ msgstr "не можа да се помени подредбата на байт�
 msgid "unable to modify '%s' due to errors"
 msgstr ""
 
-#: objcopy.c:2714
+#: objcopy.c:2753
 #, c-format
 msgid "error: the input file '%s' has no sections"
 msgstr ""
@@ -13872,17 +13874,17 @@ msgstr ""
 msgid "try to add a ill language."
 msgstr ""
 
-#: windmc.c:1115
+#: windmc.c:1113
 #, c-format
 msgid "unable to open file `%s' for input.\n"
 msgstr "не можа да се отвори файл '%s' за вход.\n"
 
-#: windmc.c:1123
+#: windmc.c:1121
 #, c-format
 msgid "unable to read contents of %s"
 msgstr "не можа да се прочете съдържанието на %s"
 
-#: windmc.c:1135
+#: windmc.c:1133
 msgid "input file does not seems to be UFT16.\n"
 msgstr "изглежда входящият файл не е в UFT16.\n"
 
@@ -14027,3 +14029,36 @@ msgstr "stab_int_type: неправилен размер %u"
 #, c-format
 msgid "%s: warning: unknown size for field `%s' in struct"
 msgstr "%s: предупреждение: неизвестен размер за полето '%s' на структурата"
+
+#~ msgid "DW_FORM_GNU_str_index offset too big: 0x%s vs 0x%s\n"
+#~ msgstr "DW_FORM_GNU_str_index твърде голямо отместване: 0x%s с/у 0x%s\n"
+
+#~ msgid "<index offset is too big>"
+#~ msgstr "<твърде голямо отместване>"
+
+#~ msgid "DW_FORM_GNU_str_index indirect offset too big: 0x%s\n"
+#~ msgstr "DW_FORM_GNU_str_index твърде голямо непряко отместване: 0x%s\n"
+
+#~ msgid "%c(index: 0x%s): %s"
+#~ msgstr "%c(указател: 0x%s): %s"
+
+#~ msgid "%c(addr_index: 0x%s): %s"
+#~ msgstr "%c(адрес от списък: 0x%s): %s"
+
+#~ msgid "(Unknown: %s)"
+#~ msgstr "(Непознат: %s)"
+
+#~ msgid "[%3u] 0x%lx\n"
+#~ msgstr "[%3u] 0x%lx\n"
+
+#~ msgid "Internal error: out of space in the shndx pool.\n"
+#~ msgstr "Вътрешна грешка: недостатъчно място в сборния shndx\n"
+
+#~ msgid "  [%3d] 0x%s"
+#~ msgstr "  [%3d] 0x%s"
+
+#~ msgid "warning: note section is empty"
+#~ msgstr "Предупреждение: разделът .note е празен"
+
+#~ msgid "<corrupt: %s>"
+#~ msgstr "<повреден: %s>"
