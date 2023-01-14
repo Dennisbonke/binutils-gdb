@@ -16522,6 +16522,11 @@ msgstr ""
 
 #: config/tc-riscv.c:3757
 #, c-format
+msgid "Improper bs immediate (%lu)"
+msgstr ""
+
+#: config/tc-riscv.c:3402
+#, c-format
 msgid "Improper rnum immediate (%lu)"
 msgstr ""
 

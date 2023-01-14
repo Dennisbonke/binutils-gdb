@@ -4511,27 +4511,27 @@ msgstr ""
 #: eaarch64pe.c:352 earm64pe.c:352 earm_wince_pe.c:340 earmpe.c:340
 #: ei386pe.c:340 ei386pe_posix.c:340 ei386pep.c:352 emcorepe.c:340 eshpe.c:340
 #, c-format
-msgid "  --file-alignment <size>            Set file alignment\n"
+msgid "  --heap <size>                      Set initial size of the heap\n"
 msgstr ""
 
 #: eaarch64pe.c:353 earm64pe.c:353 earm_wince_pe.c:341 earmpe.c:341
 #: ei386pe.c:341 ei386pe_posix.c:341 ei386pep.c:353 emcorepe.c:341 eshpe.c:341
 #, c-format
-msgid "  --heap <size>                      Set initial size of the heap\n"
+msgid ""
+"  --image-base <address>             Set start address of the executable\n"
 msgstr ""
 
 #: eaarch64pe.c:354 earm64pe.c:354 earm_wince_pe.c:342 earmpe.c:342
 #: ei386pe.c:342 ei386pe_posix.c:342 ei386pep.c:354 emcorepe.c:342 eshpe.c:342
 #, c-format
 msgid ""
-"  --image-base <address>             Set start address of the executable\n"
+"  --major-image-version <number>     Set version number of the executable\n"
 msgstr ""
 
 #: eaarch64pe.c:355 earm64pe.c:355 earm_wince_pe.c:343 earmpe.c:343
 #: ei386pe.c:343 ei386pe_posix.c:343 ei386pep.c:355 emcorepe.c:343 eshpe.c:343
 #, c-format
-msgid ""
-"  --major-image-version <number>     Set version number of the executable\n"
+msgid "  --major-os-version <number>        Set minimum required OS version\n"
 msgstr ""
 
 #: eaarch64pe.c:356 earm64pe.c:356 earm_wince_pe.c:344 earmpe.c:344
@@ -4572,20 +4572,21 @@ msgstr ""
 #: eaarch64pe.c:361 earm64pe.c:361 earm_wince_pe.c:349 earmpe.c:349
 #: ei386pe.c:349 ei386pe_posix.c:349 ei386pep.c:361 emcorepe.c:349 eshpe.c:349
 #, c-format
-msgid "  --section-alignment <size>         Set section alignment\n"
+msgid "  --stack <size>                     Set size of the initial stack\n"
 msgstr ""
 
 #: eaarch64pe.c:362 earm64pe.c:362 earm_wince_pe.c:350 earmpe.c:350
 #: ei386pe.c:350 ei386pe_posix.c:350 ei386pep.c:362 emcorepe.c:350 eshpe.c:350
 #, c-format
-msgid "  --stack <size>                     Set size of the initial stack\n"
+msgid ""
+"  --subsystem <name>[:<version>]     Set required OS subsystem [& version]\n"
 msgstr ""
 
 #: eaarch64pe.c:363 earm64pe.c:363 earm_wince_pe.c:351 earmpe.c:351
 #: ei386pe.c:351 ei386pe_posix.c:351 ei386pep.c:363 emcorepe.c:351 eshpe.c:351
 #, c-format
 msgid ""
-"  --subsystem <name>[:<version>]     Set required OS subsystem [& version]\n"
+"  --support-old-code                 Support interworking with old code\n"
 msgstr ""
 
 #: eaarch64pe.c:364 earm64pe.c:364 earm_wince_pe.c:352 earmpe.c:352
@@ -4627,37 +4628,37 @@ msgstr ""
 #: eaarch64pe.c:370 earm64pe.c:370 earm_wince_pe.c:359 earmpe.c:359
 #: ei386pe.c:359 ei386pe_posix.c:359 ei386pep.c:370 emcorepe.c:359 eshpe.c:359
 #, c-format
-msgid "  --disable-stdcall-fixup            Don't link _sym to _sym@nn\n"
+msgid ""
+"  --enable-stdcall-fixup             Link _sym to _sym@nn without warnings\n"
 msgstr ""
 
 #: eaarch64pe.c:371 earm64pe.c:371 earm_wince_pe.c:360 earmpe.c:360
 #: ei386pe.c:360 ei386pe_posix.c:360 ei386pep.c:371 emcorepe.c:360 eshpe.c:360
 #, c-format
 msgid ""
-"  --enable-stdcall-fixup             Link _sym to _sym@nn without warnings\n"
+"  --exclude-symbols sym,sym,...      Exclude symbols from automatic export\n"
 msgstr ""
 
 #: eaarch64pe.c:372 earm64pe.c:372 earm_wince_pe.c:361 earmpe.c:361
 #: ei386pe.c:361 ei386pe_posix.c:361 ei386pep.c:372 emcorepe.c:361 eshpe.c:361
 #, c-format
 msgid ""
-"  --exclude-symbols sym,sym,...      Exclude symbols from automatic export\n"
+"  --exclude-all-symbols              Exclude all symbols from automatic "
+"export\n"
 msgstr ""
 
 #: eaarch64pe.c:373 earm64pe.c:373 earm_wince_pe.c:362 earmpe.c:362
 #: ei386pe.c:362 ei386pe_posix.c:362 ei386pep.c:373 emcorepe.c:362 eshpe.c:362
 #, c-format
 msgid ""
-"  --exclude-all-symbols              Exclude all symbols from automatic "
+"  --exclude-libs lib,lib,...         Exclude libraries from automatic "
 "export\n"
 msgstr ""
 
 #: eaarch64pe.c:374 earm64pe.c:374 earm_wince_pe.c:363 earmpe.c:363
 #: ei386pe.c:363 ei386pe_posix.c:363 ei386pep.c:374 emcorepe.c:363 eshpe.c:363
 #, c-format
-msgid ""
-"  --exclude-libs lib,lib,...         Exclude libraries from automatic "
-"export\n"
+msgid "  --exclude-modules-for-implib mod,mod,...\n"
 msgstr ""
 
 #: eaarch64pe.c:375 earm64pe.c:375 earm_wince_pe.c:364 earmpe.c:364
@@ -4868,13 +4869,13 @@ msgstr ""
 #: eaarch64pe.c:401 earm64pe.c:401 earm_wince_pe.c:392 earmpe.c:392
 #: ei386pe.c:392 ei386pe_posix.c:392 ei386pep.c:401 emcorepe.c:392 eshpe.c:392
 #, c-format
-msgid "  --[disable-]no-bind                Do not bind this image\n"
+msgid "  --[disable-]wdmdriver              Driver uses the WDM model\n"
 msgstr ""
 
 #: eaarch64pe.c:402 earm64pe.c:402 earm_wince_pe.c:393 earmpe.c:393
 #: ei386pe.c:393 ei386pe_posix.c:393 ei386pep.c:402 emcorepe.c:393 eshpe.c:393
 #, c-format
-msgid "  --[disable-]wdmdriver              Driver uses the WDM model\n"
+msgid "  --[disable-]tsaware                Image is Terminal Server aware\n"
 msgstr ""
 
 #: eaarch64pe.c:403 earm64pe.c:403 earm_wince_pe.c:394 earmpe.c:394
@@ -6329,7 +6330,7 @@ msgstr ""
 #: eelf32ppchaiku.c:872 eelf32ppclinux.c:872 eelf32ppcnto.c:872
 #: eelf32ppcsim.c:872 eelf32ppcwindiss.c:872
 #, c-format
-msgid "  --secure-plt                Use new-style PLT if possible\n"
+msgid "  --emit-stub-syms            Label linker stubs with a symbol\n"
 msgstr ""
 
 #: eelf32lppc.c:875 eelf32lppclinux.c:875 eelf32lppcnto.c:875
@@ -6337,7 +6338,7 @@ msgstr ""
 #: eelf32ppchaiku.c:875 eelf32ppclinux.c:875 eelf32ppcnto.c:875
 #: eelf32ppcsim.c:875 eelf32ppcwindiss.c:875
 #, c-format
-msgid "  --bss-plt                   Force old-style BSS PLT\n"
+msgid "  --no-emit-stub-syms         Don't label linker stubs with a symbol\n"
 msgstr ""
 
 #: eelf32lppc.c:878 eelf32lppclinux.c:878 eelf32lppcnto.c:878
@@ -6345,7 +6346,7 @@ msgstr ""
 #: eelf32ppchaiku.c:878 eelf32ppclinux.c:878 eelf32ppcnto.c:878
 #: eelf32ppcsim.c:878 eelf32ppcwindiss.c:878
 #, c-format
-msgid "  --plt-align                 Align PLT call stubs to fit cache lines\n"
+msgid "  --no-tls-optimize           Don't try to optimize TLS accesses\n"
 msgstr ""
 
 #: eelf32lppc.c:881 eelf32lppclinux.c:881 eelf32lppcnto.c:881
@@ -6354,7 +6355,7 @@ msgstr ""
 #: eelf32ppcsim.c:881 eelf32ppcwindiss.c:881 eelf64lppc.c:1405
 #: eelf64lppc_fbsd.c:1405 eelf64ppc.c:1405 eelf64ppc_fbsd.c:1405
 #, c-format
-msgid "  --no-plt-align              Dont't align individual PLT call stubs\n"
+msgid "  --no-tls-get-addr-optimize  Don't use a special __tls_get_addr call\n"
 msgstr ""
 
 #: eelf32lppc.c:884 eelf32lppclinux.c:884 eelf32lppcnto.c:884
@@ -6363,8 +6364,7 @@ msgstr ""
 #: eelf32ppcsim.c:884 eelf32ppcwindiss.c:884 eelf64lppc.c:1464
 #: eelf64lppc_fbsd.c:1464 eelf64ppc.c:1464 eelf64ppc_fbsd.c:1464
 #, c-format
-msgid ""
-"  --no-inline-optimize        Don't convert inline PLT to direct calls\n"
+msgid "  --secure-plt                Use new-style PLT if possible\n"
 msgstr ""
 
 #: eelf32lppc.c:887 eelf32lppclinux.c:887 eelf32lppcnto.c:887
@@ -6372,7 +6372,7 @@ msgstr ""
 #: eelf32ppchaiku.c:887 eelf32ppclinux.c:887 eelf32ppcnto.c:887
 #: eelf32ppcsim.c:887 eelf32ppcwindiss.c:887
 #, c-format
-msgid "  --sdata-got                 Force GOT location just before .sdata\n"
+msgid "  --bss-plt                   Force old-style BSS PLT\n"
 msgstr ""
 
 #: eelf32lppc.c:890 eelf32lppclinux.c:890 eelf32lppcnto.c:890
@@ -6585,76 +6585,76 @@ msgstr ""
 msgid "%P: .init/.fini fragments use differing TOC pointers\n"
 msgstr ""
 
-#: eelf64lppc.c:1257 eelf64lppc_fbsd.c:1257 eelf64ppc.c:1257
-#: eelf64ppc_fbsd.c:1257
+#: eelf64lppc.c:1268 eelf64lppc_fbsd.c:1268 eelf64ppc.c:1268
+#: eelf64ppc_fbsd.c:1268
 msgid "%F%P: invalid --power10-stubs argument `%s'\n"
 msgstr ""
 
-#: eelf64lppc.c:1380 eelf64ppc.c:1380
+#: eelf64lppc.c:1391 eelf64ppc.c:1391
 #, c-format
 msgid ""
 "  --plt-static-chain          PLT call stubs should load r11 (default)\n"
 msgstr ""
 
-#: eelf64lppc.c:1383 eelf64ppc.c:1383
+#: eelf64lppc.c:1394 eelf64ppc.c:1394
 #, c-format
 msgid "  --no-plt-static-chain       PLT call stubs should not load r11\n"
 msgstr ""
 
-#: eelf64lppc.c:1386 eelf64lppc_fbsd.c:1386 eelf64ppc.c:1386
-#: eelf64ppc_fbsd.c:1386
+#: eelf64lppc.c:1397 eelf64lppc_fbsd.c:1397 eelf64ppc.c:1397
+#: eelf64ppc_fbsd.c:1397
 #, c-format
 msgid "  --plt-thread-safe           PLT call stubs with load-load barrier\n"
 msgstr ""
 
-#: eelf64lppc.c:1389 eelf64lppc_fbsd.c:1389 eelf64ppc.c:1389
-#: eelf64ppc_fbsd.c:1389
+#: eelf64lppc.c:1400 eelf64lppc_fbsd.c:1400 eelf64ppc.c:1400
+#: eelf64ppc_fbsd.c:1400
 #, c-format
 msgid "  --no-plt-thread-safe        PLT call stubs without barrier\n"
 msgstr ""
 
-#: eelf64lppc.c:1392 eelf64lppc_fbsd.c:1392 eelf64ppc.c:1392
-#: eelf64ppc_fbsd.c:1392
+#: eelf64lppc.c:1403 eelf64lppc_fbsd.c:1403 eelf64ppc.c:1403
+#: eelf64ppc_fbsd.c:1403
 #, c-format
 msgid "  --plt-align [=<align>]      Align PLT call stubs to fit cache lines\n"
 msgstr ""
 
-#: eelf64lppc.c:1398 eelf64lppc_fbsd.c:1398 eelf64ppc.c:1398
-#: eelf64ppc_fbsd.c:1398
+#: eelf64lppc.c:1409 eelf64lppc_fbsd.c:1409 eelf64ppc.c:1409
+#: eelf64ppc_fbsd.c:1409
 #, c-format
 msgid ""
 "  --plt-localentry            Optimize calls to ELFv2 localentry:0 "
 "functions\n"
 msgstr ""
 
-#: eelf64lppc.c:1401 eelf64lppc_fbsd.c:1401 eelf64ppc.c:1401
-#: eelf64ppc_fbsd.c:1401
+#: eelf64lppc.c:1412 eelf64lppc_fbsd.c:1412 eelf64ppc.c:1412
+#: eelf64ppc_fbsd.c:1412
 #, c-format
 msgid "  --no-plt-localentry         Don't optimize ELFv2 calls\n"
 msgstr ""
 
-#: eelf64lppc.c:1404 eelf64lppc_fbsd.c:1404 eelf64ppc.c:1404
-#: eelf64ppc_fbsd.c:1404
+#: eelf64lppc.c:1415 eelf64lppc_fbsd.c:1415 eelf64ppc.c:1415
+#: eelf64ppc_fbsd.c:1415
 #, c-format
 msgid ""
 "  --power10-stubs [=auto]     Use Power10 PLT call stubs (default auto)\n"
 msgstr ""
 
-#: eelf64lppc.c:1407 eelf64lppc_fbsd.c:1407 eelf64ppc.c:1407
-#: eelf64ppc_fbsd.c:1407
+#: eelf64lppc.c:1418 eelf64lppc_fbsd.c:1418 eelf64ppc.c:1418
+#: eelf64ppc_fbsd.c:1418
 #, c-format
 msgid ""
 "  --no-pcrel-optimize         Don't perform R_PPC64_PCREL_OPT optimization\n"
 msgstr ""
 
-#: eelf64lppc.c:1410 eelf64lppc_fbsd.c:1410 eelf64ppc.c:1410
-#: eelf64ppc_fbsd.c:1410
+#: eelf64lppc.c:1421 eelf64lppc_fbsd.c:1421 eelf64ppc.c:1421
+#: eelf64ppc_fbsd.c:1421
 #, c-format
 msgid "  --no-power10-stubs          Don't use Power10 PLT call stubs\n"
 msgstr ""
 
-#: eelf64lppc.c:1419 eelf64lppc_fbsd.c:1419 eelf64ppc.c:1419
-#: eelf64ppc_fbsd.c:1419
+#: eelf64lppc.c:1430 eelf64lppc_fbsd.c:1430 eelf64ppc.c:1430
+#: eelf64ppc_fbsd.c:1430
 #, c-format
 msgid ""
 "  --dotsyms                   For every version pattern \"foo\" in a "
@@ -6664,15 +6664,15 @@ msgid ""
 "                                descriptor symbols.  Defaults to on.\n"
 msgstr ""
 
-#: eelf64lppc.c:1425 eelf64lppc_fbsd.c:1425 eelf64ppc.c:1425
-#: eelf64ppc_fbsd.c:1425
+#: eelf64lppc.c:1436 eelf64lppc_fbsd.c:1436 eelf64ppc.c:1436
+#: eelf64ppc_fbsd.c:1436
 #, c-format
 msgid ""
 "  --no-dotsyms                Don't do anything special in version scripts\n"
 msgstr ""
 
-#: eelf64lppc.c:1428 eelf64lppc_fbsd.c:1428 eelf64ppc.c:1428
-#: eelf64ppc_fbsd.c:1428
+#: eelf64lppc.c:1439 eelf64lppc_fbsd.c:1439 eelf64ppc.c:1439
+#: eelf64ppc_fbsd.c:1439
 #, c-format
 msgid ""
 "  --save-restore-funcs        Provide register save and restore routines "
@@ -6681,71 +6681,71 @@ msgid ""
 "                                final link, off for ld -r.\n"
 msgstr ""
 
-#: eelf64lppc.c:1433 eelf64lppc_fbsd.c:1433 eelf64ppc.c:1433
-#: eelf64ppc_fbsd.c:1433
+#: eelf64lppc.c:1444 eelf64lppc_fbsd.c:1444 eelf64ppc.c:1444
+#: eelf64ppc_fbsd.c:1444
 #, c-format
 msgid "  --no-save-restore-funcs     Don't provide these routines\n"
 msgstr ""
 
-#: eelf64lppc.c:1439 eelf64lppc_fbsd.c:1439 eelf64ppc.c:1439
-#: eelf64ppc_fbsd.c:1439
+#: eelf64lppc.c:1450 eelf64lppc_fbsd.c:1450 eelf64ppc.c:1450
+#: eelf64ppc_fbsd.c:1450
 #, c-format
 msgid ""
 "  --tls-get-addr-optimize     Force use of special __tls_get_addr call\n"
 msgstr ""
 
-#: eelf64lppc.c:1445 eelf64lppc_fbsd.c:1445 eelf64ppc.c:1445
-#: eelf64ppc_fbsd.c:1445
+#: eelf64lppc.c:1456 eelf64lppc_fbsd.c:1456 eelf64ppc.c:1456
+#: eelf64ppc_fbsd.c:1456
 #, c-format
 msgid "  --tls-get-addr-regsave      Force register save __tls_get_addr stub\n"
 msgstr ""
 
-#: eelf64lppc.c:1448 eelf64lppc_fbsd.c:1448 eelf64ppc.c:1448
-#: eelf64ppc_fbsd.c:1448
+#: eelf64lppc.c:1459 eelf64lppc_fbsd.c:1459 eelf64ppc.c:1459
+#: eelf64ppc_fbsd.c:1459
 #, c-format
 msgid ""
 "  --no-tls-get-addr-regsave   Don't use register save __tls_get_addr stub\n"
 msgstr ""
 
-#: eelf64lppc.c:1451 eelf64lppc_fbsd.c:1451 eelf64ppc.c:1451
-#: eelf64ppc_fbsd.c:1451
+#: eelf64lppc.c:1462 eelf64lppc_fbsd.c:1462 eelf64ppc.c:1462
+#: eelf64ppc_fbsd.c:1462
 #, c-format
 msgid "  --no-opd-optimize           Don't optimize the OPD section\n"
 msgstr ""
 
-#: eelf64lppc.c:1457 eelf64lppc_fbsd.c:1457 eelf64ppc.c:1457
-#: eelf64ppc_fbsd.c:1457
+#: eelf64lppc.c:1468 eelf64lppc_fbsd.c:1468 eelf64ppc.c:1468
+#: eelf64ppc_fbsd.c:1468
 #, c-format
 msgid "  --no-toc-optimize           Don't optimize the TOC section\n"
 msgstr ""
 
-#: eelf64lppc.c:1460 eelf64lppc_fbsd.c:1460 eelf64ppc.c:1460
-#: eelf64ppc_fbsd.c:1460
+#: eelf64lppc.c:1471 eelf64lppc_fbsd.c:1471 eelf64ppc.c:1471
+#: eelf64ppc_fbsd.c:1471
 #, c-format
 msgid ""
 "  --no-multi-toc              Disallow automatic multiple toc sections\n"
 msgstr ""
 
-#: eelf64lppc.c:1463 eelf64lppc_fbsd.c:1463 eelf64ppc.c:1463
-#: eelf64ppc_fbsd.c:1463
+#: eelf64lppc.c:1474 eelf64lppc_fbsd.c:1474 eelf64ppc.c:1474
+#: eelf64ppc_fbsd.c:1474
 #, c-format
 msgid "  --no-toc-sort               Don't sort TOC and GOT sections\n"
 msgstr ""
 
-#: eelf64lppc.c:1466 eelf64lppc_fbsd.c:1466 eelf64ppc.c:1466
-#: eelf64ppc_fbsd.c:1466
+#: eelf64lppc.c:1477 eelf64lppc_fbsd.c:1477 eelf64ppc.c:1477
+#: eelf64ppc_fbsd.c:1477
 #, c-format
 msgid ""
 "  --non-overlapping-opd       Canonicalize .opd, so that there are no\n"
 "                                overlapping .opd entries\n"
 msgstr ""
 
-#: eelf64lppc_fbsd.c:1380 eelf64ppc_fbsd.c:1380
+#: eelf64lppc_fbsd.c:1391 eelf64ppc_fbsd.c:1391
 #, c-format
 msgid "  --plt-static-chain          PLT call stubs should load r111\n"
 msgstr ""
 
-#: eelf64lppc_fbsd.c:1383 eelf64ppc_fbsd.c:1383
+#: eelf64lppc_fbsd.c:1394 eelf64ppc_fbsd.c:1394
 #, c-format
 msgid ""
 "  --no-plt-static-chain       PLT call stubs should not load r11 (default)\n"
