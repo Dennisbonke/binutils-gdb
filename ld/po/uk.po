@@ -4219,26 +4219,6 @@ msgstr ""
 "  --no-wchar-size-warning     не попереджати про об'єкти із несумісними\n"
 "                                розмірами wchar_t\n"
 
-#: eaarch64cloudabi.c:896 eaarch64cloudabib.c:896 eaarch64elf.c:896
-#: eaarch64elf32.c:896 eaarch64elf32b.c:896 eaarch64elfb.c:896
-#: eaarch64fbsd.c:901 eaarch64fbsdb.c:901 eaarch64haiku.c:896
-#: eaarch64linux.c:901 eaarch64linux32.c:901 eaarch64linux32b.c:901
-#: eaarch64linuxb.c:901 eaarch64nto.c:1074 earmelf.c:1181 earmelf_fbsd.c:1181
-#: earmelf_fuchsia.c:1186 earmelf_haiku.c:1186 earmelf_linux.c:1186
-#: earmelf_linux_eabi.c:1186 earmelf_linux_fdpiceabi.c:1186 earmelf_nacl.c:1186
-#: earmelf_nbsd.c:1181 earmelf_phoenix.c:1186 earmelf_vxworks.c:1217
-#: earmelfb.c:1181 earmelfb_fbsd.c:1181 earmelfb_fuchsia.c:1186
-#: earmelfb_linux.c:1186 earmelfb_linux_eabi.c:1186
-#: earmelfb_linux_fdpiceabi.c:1186 earmelfb_nacl.c:1186 earmelfb_nbsd.c:1181
-#: earmnto.c:1141
-#, c-format
-msgid ""
-"  --no-wchar-size-warning     Don't warn about objects with incompatible\n"
-"                                wchar_t sizes\n"
-msgstr ""
-"  --no-wchar-size-warning     не попереджати про об'єкти із несумісними\n"
-"                                розмірами wchar_t\n"
-
 #: eaarch64cloudabi.c:898 eaarch64cloudabib.c:898 eaarch64elf.c:898
 #: eaarch64elf32.c:898 eaarch64elf32b.c:898 eaarch64elfb.c:898
 #: eaarch64fbsd.c:903 eaarch64fbsdb.c:903 eaarch64haiku.c:898
@@ -4296,15 +4276,6 @@ msgstr ""
 msgid "  --fix-cortex-a53-835769      Fix erratum 835769\n"
 msgstr "  --fix-cortex-a53-835769      виправляти помилку 835769\n"
 
-#: eaarch64cloudabi.c:909 eaarch64cloudabib.c:909 eaarch64elf.c:909
-#: eaarch64elf32.c:909 eaarch64elf32b.c:909 eaarch64elfb.c:909
-#: eaarch64fbsd.c:914 eaarch64fbsdb.c:914 eaarch64haiku.c:909
-#: eaarch64linux.c:914 eaarch64linux32.c:914 eaarch64linux32b.c:914
-#: eaarch64linuxb.c:914 eaarch64nto.c:1087
-#, c-format
-msgid "  --fix-cortex-a53-835769      Fix erratum 835769\n"
-msgstr "  --fix-cortex-a53-835769      виправляти помилку 835769\n"
-
 #: eaarch64cloudabi.c:874 eaarch64cloudabib.c:874 eaarch64elf.c:869
 #: eaarch64elf32.c:869 eaarch64elf32b.c:869 eaarch64elfb.c:869
 #: eaarch64fbsd.c:874 eaarch64fbsdb.c:874 eaarch64haiku.c:874
@@ -4340,15 +4311,6 @@ msgstr ""
 #: eaarch64fbsd.c:925 eaarch64fbsdb.c:925 eaarch64haiku.c:920
 #: eaarch64linux.c:925 eaarch64linux32.c:925 eaarch64linux32b.c:925
 #: eaarch64linuxb.c:925 eaarch64nto.c:1098
-#, c-format
-msgid "  --no-apply-dynamic-relocs    Do not apply link-time values for dynamic relocations\n"
-msgstr "  --no-apply-dynamic-relocs   не застосовувати значення посилання-час для динамічних пересувань\n"
-
-#: eaarch64cloudabi.c:921 eaarch64cloudabib.c:921 eaarch64elf.c:921
-#: eaarch64elf32.c:921 eaarch64elf32b.c:921 eaarch64elfb.c:921
-#: eaarch64fbsd.c:926 eaarch64fbsdb.c:926 eaarch64haiku.c:921
-#: eaarch64linux.c:926 eaarch64linux32.c:926 eaarch64linux32b.c:926
-#: eaarch64linuxb.c:926 eaarch64nto.c:1099
 #, c-format
 msgid "  --no-apply-dynamic-relocs    Do not apply link-time values for dynamic relocations\n"
 msgstr "  --no-apply-dynamic-relocs   не застосовувати значення посилання-час для динамічних пересувань\n"
@@ -5280,28 +5242,6 @@ msgstr "  --use-blx                   увімкнути використанн�
 msgid "  --vfp11-denorm-fix          Specify how to fix VFP11 denorm erratum\n"
 msgstr "  --vfp11-denorm-fix          вказати, як слід виправляти помилку денормування VFP11\n"
 
-#: earmelf.c:1176 earmelf_fbsd.c:1176 earmelf_fuchsia.c:1181
-#: earmelf_haiku.c:1181 earmelf_linux.c:1181 earmelf_linux_eabi.c:1181
-#: earmelf_linux_fdpiceabi.c:1181 earmelf_nacl.c:1181 earmelf_nbsd.c:1176
-#: earmelf_phoenix.c:1181 earmelf_vxworks.c:1212 earmelfb.c:1176
-#: earmelfb_fbsd.c:1176 earmelfb_fuchsia.c:1181 earmelfb_linux.c:1181
-#: earmelfb_linux_eabi.c:1181 earmelfb_linux_fdpiceabi.c:1181
-#: earmelfb_nacl.c:1181 earmelfb_nbsd.c:1176 earmnto.c:1136
-#, c-format
-msgid "  --use-blx                   Enable use of BLX instructions\n"
-msgstr "  --use-blx                   увімкнути використання інструкцій BLX\n"
-
-#: earmelf.c:1177 earmelf_fbsd.c:1177 earmelf_fuchsia.c:1182
-#: earmelf_haiku.c:1182 earmelf_linux.c:1182 earmelf_linux_eabi.c:1182
-#: earmelf_linux_fdpiceabi.c:1182 earmelf_nacl.c:1182 earmelf_nbsd.c:1177
-#: earmelf_phoenix.c:1182 earmelf_vxworks.c:1213 earmelfb.c:1177
-#: earmelfb_fbsd.c:1177 earmelfb_fuchsia.c:1182 earmelfb_linux.c:1182
-#: earmelfb_linux_eabi.c:1182 earmelfb_linux_fdpiceabi.c:1182
-#: earmelfb_nacl.c:1182 earmelfb_nbsd.c:1177 earmnto.c:1137
-#, c-format
-msgid "  --vfp11-denorm-fix          Specify how to fix VFP11 denorm erratum\n"
-msgstr "  --vfp11-denorm-fix          вказати, як слід виправляти помилку денормування VFP11\n"
-
 #: earmelf.c:1178 earmelf_fbsd.c:1178 earmelf_fuchsia.c:1183
 #: earmelf_haiku.c:1183 earmelf_linux.c:1183 earmelf_linux_eabi.c:1183
 #: earmelf_linux_fdpiceabi.c:1183 earmelf_nacl.c:1183 earmelf_nbsd.c:1178
@@ -5320,21 +5260,6 @@ msgstr "  --fix-stm32l4xx-629360      вказати, як виправляти 
 #: earmelfb_fbsd.c:1184 earmelfb_fuchsia.c:1189 earmelfb_linux.c:1189
 #: earmelfb_linux_eabi.c:1189 earmelfb_linux_fdpiceabi.c:1189
 #: earmelfb_nacl.c:1189 earmelfb_nbsd.c:1184 earmnto.c:1144
-#, c-format
-msgid ""
-"  --cmse-implib               Make import library to be a secure gateway import\n"
-"                                library as per ARMv8-M Security Extensions\n"
-msgstr ""
-"  --cmse-implib               зробити бібліотеку імпортування безпечною шлюзовою бібліотекою\n"
-"                                імпортування за розширеннями захисту ARMv8-M\n"
-
-#: earmelf.c:1186 earmelf_fbsd.c:1186 earmelf_fuchsia.c:1191
-#: earmelf_haiku.c:1191 earmelf_linux.c:1191 earmelf_linux_eabi.c:1191
-#: earmelf_linux_fdpiceabi.c:1191 earmelf_nacl.c:1191 earmelf_nbsd.c:1186
-#: earmelf_phoenix.c:1191 earmelf_vxworks.c:1222 earmelfb.c:1186
-#: earmelfb_fbsd.c:1186 earmelfb_fuchsia.c:1191 earmelfb_linux.c:1191
-#: earmelfb_linux_eabi.c:1191 earmelfb_linux_fdpiceabi.c:1191
-#: earmelfb_nacl.c:1191 earmelfb_nbsd.c:1186 earmnto.c:1146
 #, c-format
 msgid ""
 "  --cmse-implib               Make import library to be a secure gateway import\n"
@@ -5745,13 +5670,6 @@ msgstr "  --dsbt-index <індекс>   використовувати вказ�
 #: eelf32_tic6x_be.c:645 eelf32_tic6x_elf_be.c:645 eelf32_tic6x_elf_le.c:645
 #: eelf32_tic6x_le.c:645 eelf32_tic6x_linux_be.c:645
 #: eelf32_tic6x_linux_le.c:645
-#, c-format
-msgid "  --dsbt-size <index>     Use this as the number of entries in the DSBT table\n"
-msgstr "  --dsbt-size <індекс>    використовувати вказане число як кількість записів у таблиці DSBT\n"
-
-#: eelf32_tic6x_be.c:646 eelf32_tic6x_elf_be.c:646 eelf32_tic6x_elf_le.c:646
-#: eelf32_tic6x_le.c:646 eelf32_tic6x_linux_be.c:646
-#: eelf32_tic6x_linux_le.c:646
 #, c-format
 msgid "  --dsbt-size <index>     Use this as the number of entries in the DSBT table\n"
 msgstr "  --dsbt-size <індекс>    використовувати вказане число як кількість записів у таблиці DSBT\n"

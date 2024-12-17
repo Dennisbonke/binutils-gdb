@@ -3779,12 +3779,6 @@ msgstr "Дължината на поле (%#<PRIx64>) в заглавие debug_
 msgid " Table at Offset: %#<PRIx64>:\n"
 msgstr " Таблица с отместване: %#<PRIx64>:\n"
 
-#: dwarf.c:8295
-msgid "Only DWARF version 5+ debug_rnglists info is currently supported.\n"
-msgstr ""
-"\n"
-"  Отместване: %#<PRIx64>, Указател: %#<PRIx64>\n"
-
 #: dwarf.c:8302
 #, c-format
 msgid ""

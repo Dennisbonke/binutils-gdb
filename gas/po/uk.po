@@ -301,21 +301,6 @@ msgstr "  --hash-size=<N>         буде проігноровано\n"
 msgid "  --help                  show all assembler options\n"
 msgstr "  --help                  вивести усі параметри асемблера\n"
 
-#: as.c:345
-#, c-format
-msgid "  --gcodeview             generate CodeView debugging information\n"
-msgstr "  --gcodeview             створити діагностичні дані CodeView\n"
-
-#: as.c:351
-#, c-format
-msgid "  --hash-size=<N>         ignored\n"
-msgstr "  --hash-size=<N>         буде проігноровано\n"
-
-#: as.c:353
-#, c-format
-msgid "  --help                  show all assembler options\n"
-msgstr "  --help                  вивести усі параметри асемблера\n"
-
 #: as.c:355
 #, c-format
 msgid "  --target-help           show target specific options\n"
@@ -381,11 +366,6 @@ msgid "  -R                      fold data section into text section\n"
 msgstr "  -R                      загорнути розділ даних до текстового розділу\n"
 
 #: as.c:380
-#, c-format
-msgid "  --reduce-memory-overheads ignored\n"
-msgstr "  --reduce-memory-overheads буде проігноровано\n"
-
-#: as.c:382
 #, c-format
 msgid "  --reduce-memory-overheads ignored\n"
 msgstr "  --reduce-memory-overheads буде проігноровано\n"

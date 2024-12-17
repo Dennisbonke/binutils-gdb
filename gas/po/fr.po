@@ -300,21 +300,6 @@ msgstr "  --hash-size=<N>         ignoré\n"
 msgid "  --help                  show all assembler options\n"
 msgstr "  --help                  afficher toutes les options de l'assembleur\n"
 
-#: as.c:345
-#, c-format
-msgid "  --gcodeview             generate CodeView debugging information\n"
-msgstr "  --gcodeview             générer les informations de débogage CodeView\n"
-
-#: as.c:351
-#, c-format
-msgid "  --hash-size=<N>         ignored\n"
-msgstr "  --hash-size=<N>         ignoré\n"
-
-#: as.c:353
-#, c-format
-msgid "  --help                  show all assembler options\n"
-msgstr "  --help                  afficher toutes les options de l'assembleur\n"
-
 #: as.c:355
 #, c-format
 msgid "  --target-help           show target specific options\n"
@@ -386,11 +371,6 @@ msgid "  -R                      fold data section into text section\n"
 msgstr "  -R                      joindre la section de données avec la section texte\n"
 
 #: as.c:380
-#, c-format
-msgid "  --reduce-memory-overheads ignored\n"
-msgstr "  --reduce-memory-overheads ignoré\n"
-
-#: as.c:382
 #, c-format
 msgid "  --reduce-memory-overheads ignored\n"
 msgstr "  --reduce-memory-overheads ignoré\n"
